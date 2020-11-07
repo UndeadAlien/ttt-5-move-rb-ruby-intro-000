@@ -9,4 +9,3 @@ puts "Where would you like to go?"
 display_board()
 input = gets.split
 
-display_board(move(board, input_to_index(input)))
