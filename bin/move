@@ -9,3 +9,5 @@ display_board()
 puts "Where would you like to go?"
 input = gets.split
 input_to_index(input)
+
+display_board(board)
