@@ -8,3 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 display_board(board)
 input = gets.split
+move(board, input_to_index)
