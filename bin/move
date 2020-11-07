@@ -8,4 +8,4 @@ puts "Welcome to Tic Tac Toe"
 display_board()
 puts "Where would you like to move? (1-9) 1-Top Left / 9-Bottom Right"
 position = gets.split
-display_board(position)
+display_board(input_to_index(position))
