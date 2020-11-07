@@ -3,9 +3,8 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-puts "Welcome to Tic Tac Toe"
+puts "Welcome to Tic Tac Toe!"
 display_board()
-puts "Where would you like to move? (1-9) 1-Top Left / 9-Bottom Right"
-position = gets.split
-display_board(input_to_index(position))
+puts "Where would you like to go?"
+input = gets.split
+input_to_index(input)
